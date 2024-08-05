@@ -50,7 +50,7 @@ class InstagramBruteForcer:
         return False
 
 # Usage example
-username = 'anu.ande'
+username = 'Username or Email'
 password_file = './passwords.txt' # use multiple passwords according to person behaviour
 brute_forcer = InstagramBruteForcer(username, password_file)
 brute_forcer.brute_force()
